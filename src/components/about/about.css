@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&display=swap');
+* {
+    font-family: "Barlow", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about__card-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.about__body-card {
+    width: 30rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    transition: transform 0.5s ease;
+} 
+
+.about__body-card:hover {
+    transform: rotateX(180 deg);
+}
+
+.about__body-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.about__body-card2 {
+    line-height: 2.5;
+    text-indent: 25px;
+}
+
+.about__bodycard-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
