@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registrer.css">
 </head>
 <body>
     <section class="register">
@@ -11,20 +13,36 @@
             <article class="register__container-card">
                 <form action="" class="register__form">
                     <div class="register__input-grp">
-                        <label for="email">Enter Your Email</label>
-                        <input type="email" name="usermail" placeholder="Enter Your Email/Student ID" required>
+                        <label for="email">Enter Your School ID</label>
+                        <input type="text" name="school-id" placeholder="Enter Your Student ID" required>
                     </div>
                     <div class="register__input-grp">
                         <label for="email">Enter Your Email</label>
                         <input type="email" name="usermail" placeholder="Enter Your Email/Student ID" required>
                     </div>
                     <div class="register__input-grp">
-                        <label for="email">Enter Your Email</label>
-                        <input type="email" name="usermail" placeholder="Enter Your Email/Student ID" required>
+                        <label for="email">Enter Your Phone-Number</label>
+                        <div class="regitser__phone-contry">
+                            <select name="country" id="" class="country__code" required>
+                                <option value=""></option>
+                                <option value="+234">Nigeria (+234)</option>
+                                <option value="+254">Kenya (+254)</option>
+                                <option value="+255">Tanzania (+255)</option>
+                                <option value="+256">Uganda (+256)</option>
+                            </select>
+                            <input type="text" name="phoneNumber" placeholder="Enter Your Phone Number" required>
+                        </div>
                     </div>
                     <div class="register__input-grp">
-                        <label for="email">Enter Your Email</label>
-                        <input type="email" name="usermail" placeholder="Enter Your Email/Student ID" required>
+                        <label for="email">Enter Password</label>
+                        <input type="password" name="password" placeholder="Enter Password" required>
+                    </div>
+                    <div class="register__input-grp">
+                        <label for="email">Password confirmation</label>
+                        <input type="password" name="passwordConfirmation" placeholder="Re-enter Password" required>
+                    </div>
+                    <div class="register__input-btn">
+                        <a href="" class="btn">Regiter</a>
                     </div>
                 </form>
             </article>
