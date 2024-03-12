@@ -73,6 +73,7 @@
     border: 2px aolid  rgb(29, 29, 29);
     border-radius: 0.3rem;
     padding: 0.5rem;
+    background: rgb(229, 229, 229);
 }
 
 .contact__form-btn {

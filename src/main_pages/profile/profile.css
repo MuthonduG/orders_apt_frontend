@@ -1,0 +1,74 @@
+.user__profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.user__profile-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 5%; 
+}
+
+.user__profile-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    border: 2px solid rgb(170, 170, 170);
+    box-shadow: .5rem .25rem .5rem .25rem rgb(122, 120, 120);    
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.user__profile-cardHeader {
+    margin-bottom: .9rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+
+.profile__card-link a {
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: 600ms all ease;
+}
+
+.profile__card-link a:hover{
+    letter-spacing: 4px;
+    background: rgb(24, 24, 24);
+    color: white;
+}
+
+.profile__card-link:hover i {
+    color: crimson;
+    font-weight: bold;
+}
+
+.profile__main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid rgb(170, 170, 170);
+    box-shadow: .5rem .25rem .5rem .25rem rgb(122, 120, 120);    
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.food__card img{
+    display: none;
+}
+
+.user__profile-cardBody {
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.user__profile-cardBody i {
+    font-size: 1.3rem;
+    padding-right: 4px;
+}
+
